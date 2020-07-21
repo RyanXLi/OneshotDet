@@ -1,0 +1,50 @@
+# compilation and distribution
+__pycache__
+_ext
+*.pyc
+*.so
+maskrcnn_benchmark.egg-info/
+build/
+dist/
+training_dir/
+imgs/
+logs/
+sim_temp/
+
+# pytorch/python/numpy formats
+*.pth
+*.pkl
+*.npy
+*.cpu5admin
+
+# ipython/jupyter notebooks
+*.ipynb
+**/.ipynb_checkpoints/
+
+# Editor temporaries
+*.swn
+*.swo
+*.swp
+*~
+
+# Pycharm editor settings
+.idea
+
+# project dirs
+/datasets
+/models
+/apex
+/cocoapi
+
+# json
+*.json
+
+# images
+*.jpg
+*.png
+*.bmp
+*.jpeg
+
+# log
+*/log.txt
+log.txt
